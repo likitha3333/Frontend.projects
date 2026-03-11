@@ -1,63 +1,31 @@
 body{
     font-family: Arial;
-    margin:0;
+    background:#c5bc9d;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
 }
 
-.hero{
-    background:#4CAF50;
-    color:white;
+.quiz-container{
+    background:rgb(113, 93, 93);
+    padding:30px;
+    width:400px;
     text-align:center;
-    padding:80px 20px;
+    border-radius:10px;
 }
 
-.hero button{
-    padding:10px 20px;
-    border:none;
-    background:white;
-    color:#4CAF50;
+.btn{
+    display:block;
+    width:100%;
+    padding:10px;
+    margin:10px 0;
     cursor:pointer;
 }
 
-.features{
-    padding:40px;
-    text-align:center;
-}
-
-.feature-box{
-    margin:20px;
-    padding:20px;
-    border:1px solid #ddd;
-}
-
-.testimonials{
-    background:#f5f5f5;
-    padding:40px;
-    text-align:center;
-}
-
-.testimonial{
-    margin:20px;
-}
-
-.newsletter{
-    text-align:center;
-    padding:40px;
-}
-
-.newsletter input{
+#nextBtn{
+    margin-top:15px;
     padding:10px;
-    width:200px;
-}
-
-.newsletter button{
-    padding:10px 15px;
-}
-
-/* Responsive */
-@media (max-width:768px){
-
-    .feature-box{
-        margin:10px;
-    }
-
+    color:black;
+    background-color: chartreuse;
 }
